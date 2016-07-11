@@ -35,7 +35,10 @@ class ViewController: UIViewController {
         if (lastOnLed != 4){
             lastOnLed = lastOnLed + 1
         }
-        
+        else{
+            
+            lastOnLed = 0
+        }
        
         OnLed()
        
